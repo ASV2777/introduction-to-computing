@@ -1,0 +1,5 @@
+h= int(input("enter number of hydrogen atoms : "))
+c= int(input("enter number of carbon atoms : "))
+o= int(input("enter number of oxygen atoms : "))
+d=(h*1.00794)+(c*12.0107)+(o*15.9994)
+print("combined molecular weight of all atoms is :",d)
